@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Dog/Cat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="q8logo.jpg" alt="Adopt A-Cat/Dog" ></a>
+        <!-- image source: https://www.google.com/search?sca_esv=e58adf53c043c182&sca_upv=1&sxsrf=ADLYWILX6TFrkp8l2vntDZIE_qlG_rUw5A:1721185916311&q=pet&udm=2&fbs=AEQNm0BKxFXqFZETuC92mLOmXO9xTuwl7LTqpjEikSHB2sNnAo_Nt6_jBoO5j_EG4ZXs8aQCufxT5WhqKxk_t3EFVMM6chMZVc7rDCibjqXhAlu00fMNOQiG-zJHE7axAkcGEXHVot6tR-Is6bSRgoVDytRC7rot_Oha0WNaVjbM1f4RTqxoO0gCILZ9rR8CW9Lvb1RtIwlZrk-xNj6trfgsBdDNjcR9OA&sa=X&ved=2ahUKEwifg4mZja2HAxW5EFkFHekbBCwQtKgLegQIHBAB&biw=2560&bih=1313&dpr=1#vhid=R82vDUyQToTr1M&vssid=mosaic -->
+        <h1>Purrfect Paws</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="browse.html">Browse Available Pets</a></li>
+            <li><a href="find.html">Find a dog/cat</a></li>
+            <li><a href="dogcare.html">Dog Care</a></li>
+            <li><a href="catcare.html">Cat Care</a></li>
+            <li><a href="giveaway.html">Have a pet to give away</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Find a Dog/Cat</h2>
+        <form>
+            <label for="animal">Select animal:</label>
+            <select name="animal" id="animal">
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+            </select>
+            <label for="breed">Breed:</label>
+            <input type="text" id="breed" name="breed" placeholder="Enter breed">
+            <label for="age">Preferred age:</label>
+            <select name="age" id="age">
+                <option value="">Any</option>
+                <option value="young">Young (0-2 years)</option>
+                <option value="adult">Adult (2-7 years)</option>
+                <option value="senior">Senior (7+ years)</option>
+            </select>
+            <label for="gender">Preferred gender:</label>
+            <select name="gender" id="gender">
+                <option value="">Any</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <label for="compatibility">Compatibility:</label>
+            
+            <label for="compatibility_dogs">Gets along with other dogs</label>
+            <input type="checkbox" id="compatibility_dogs" name="compatibility_dogs">
+
+            <label for="compatibility_cats">Gets along with other cats</label>
+            <input type="checkbox" id="compatibility_cats" name="compatibility_cats">
+
+            <label for="compatibility_children">Suitable for a family with small children</label>
+            <input type="checkbox" id="compatibility_children" name="compatibility_children">
+
+            <input type="submit" value="Search">
+        </form>
+    </main>
+    <footer>
+        <a href="disclaimerStatemt.html">Privacy/Disclaimer Statement</a>
+    </footer>
+</body>
+</html>
